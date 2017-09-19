@@ -1,3 +1,4 @@
+
 body {
   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
@@ -10,4 +11,41 @@ body {
   position: absolute;
   left: 2.25%;
   top: 2.25%;
+}
+
+@font-face {
+  font-family: simpleTechBold;
+  src: url(/fonts/SimpleTechBold.otf);
+}
+
+.logotext {
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 35%;
+  color: white;
+  font-family: simpleTechBold;
+  font-style: normal;
+  font-size: 6em;
+  letter-spacing: -35px;
+  text-shadow: 2px 2px 6px #0C261E;
+}
+p.logotext {
+  transition: color 2s, text-shadow 2s;
+
+}
+
+p.logotext:hover {
+  color: #73E400;
+  text-shadow: -2px -2px 6px #524138;
+}
+
+p.subtitle {
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 45%
+
 }
