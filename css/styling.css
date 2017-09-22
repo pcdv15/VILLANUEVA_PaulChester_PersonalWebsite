@@ -22,14 +22,19 @@ body {
 .logotext {
   height: auto;
   width: auto;
-  position: absolute;
-  left: 35%;
+  text-align: center;
+
   color: white;
   font-family: simpleTechBold;
   font-style: normal;
   font-size: 6em;
   letter-spacing: -35px;
   text-shadow: 2px 2px 6px #0C261E;
+  margin-bottom: 0px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 p.logotext {
   transition: color 2s, text-shadow 2s;
@@ -42,11 +47,10 @@ p.logotext:hover {
 }
 
 p.subtitle {
+  text-align: center;
   color: white;
   font-family: monospace;
   font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 45%
+
 
 }
