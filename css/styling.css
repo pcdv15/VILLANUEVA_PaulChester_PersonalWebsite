@@ -83,13 +83,109 @@ nav {
   -moz-box-shadow: 0px 1px 0px 0px #424242;
 	-webkit-box-shadow: 0px 1px 0px 0px #424242;
 	box-shadow: 0px 1px 0px 0px #424242;
+
 }
 
 .navbutton:hover {
   background-color: #FFAB40;
+  transition: all 0.15s ease 0s;
+  -moz-box-shadow: 0px 0px 3px 3px #424242;
+	-webkit-box-shadow: 0px 0px 3px 3px #424242;
+  box-shadow: 0px 0px 3px 3px #424242;
 }
 
 .navbutton:active {
   position: relative;
   top: 4px;
+  transition: all 0.15s ease 0s;
+}
+
+#aboutme:before {
+  content: "";
+
+}
+
+#aboutme:hover:before {
+  position: absolute;
+  top: 81%;
+  content: "About Me";
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-left: -12px;
+}
+
+#aboutme:active:before {
+  content: none;
+}
+
+#contact:before {
+  content: "";
+
+}
+
+#contact:hover:before {
+  position: absolute;
+  top: 81%;
+  content: "Contact Me";
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-left: -16px;
+}
+
+#contact:active:before {
+  content: none;
+}
+
+#skills:before {
+  content: "";
+
+}
+
+#skills:hover:before {
+  position: absolute;
+  top: 81%;
+  content: "My Skills";
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-left: -12px;
+}
+
+#skills:active:before {
+  content: none;
+}
+
+#recentworks:before {
+  content: "";
+
+}
+
+#recentworks:hover:before {
+  position: absolute;
+  top: 81%;
+  content: "Recent Works";
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-left: -23px;
+}
+
+#recentworks:active:before {
+  content: none;
+}
+
+#achievements:before {
+  content: "";
+
+}
+
+#achievements:hover:before {
+  position: absolute;
+  top: 81%;
+  content: "Achievements";
+  transition: all 0.3s;
+  text-decoration: none;
+  margin-left: -28px;
+}
+
+#achievements:active:before {
+  content: none;
 }
