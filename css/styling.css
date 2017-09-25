@@ -8,8 +8,18 @@
   src: url('../fonts/roboto-thin-webfont.woff') format('woff');
 }
 
+section:target {
+  transform: translateY(20px);
+  transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+}
+
+
 body, html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,10 +50,11 @@ body {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
-  -webkit-transition: color 2s, text-shadow 2s;
-  -moz-transition: color 2s, text-shadow 2s;
-  -o-transition: color 2s, text-shadow 2s;
-  transition: color 2s, text-shadow 2s;
+  transform: scale(1);
+  -webkit-transition: transform 2s,color 2s, text-shadow 2s;
+  -moz-transition: transform 2s,color 2s, text-shadow 2s;
+  -o-transition: transform 2s,color 2s, text-shadow 2s;
+  transition: transform 2s, color 2s, text-shadow 2s;
   margin-bottom: 0px;
   width: intrinsic;           /* Safari/WebKit uses a non-standard name */
   width: -moz-max-content;    /* Firefox/Gecko */
@@ -58,6 +69,8 @@ body {
 .logotext:hover {
   color: #73E400;
   text-shadow: -2px -2px 6px #524138;
+  transform: scale(1.25);
+  transition: all 2s ease;
 }
 
 p.subtitle {
@@ -220,4 +233,5 @@ section {
   padding: 2em;
   font-family: monospace;
   margin-bottom: 7em;
+  transition: all 3s ease;
 }
