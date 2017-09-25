@@ -22,7 +22,6 @@ body {
   top: 2.25%;
 }
 
-
 .logotext {
 
   text-align: center;
@@ -88,7 +87,6 @@ nav {
   -moz-box-shadow: 0px 2px 0px 0px #424242;
 	-webkit-box-shadow: 0px 2px 0px 0px #424242;
 	box-shadow: 0px 2px 0px 0px #424242;
-
 }
 
 .navbutton:hover {
@@ -203,4 +201,9 @@ nav {
 
 #achievements:active:before {
   content: none;
+}
+
+.content {
+  position: absolute;
+  top:170%;
 }
