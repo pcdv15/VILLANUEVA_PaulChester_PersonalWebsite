@@ -214,4 +214,10 @@ nav {
 
 section {
   min-height: 100vh;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2em;
+  font-family: monospace;
+  margin-bottom: 7em;
 }
