@@ -326,6 +326,7 @@ a:hover {
 section > p {
   font-family: robotoRegular;
   position: relative;
+
   letter-spacing: 0.07em;
   text-indent: 60px;
   font-size: 1.15em;
@@ -333,8 +334,25 @@ section > p {
 
 }
 
+a.gototop {
+  justify-content: center;
+  display: flex;
+  font-family: robotoThin;
+  padding: 4px;
+  border-style: ridge;
+  border-color: green;
+  width: 7em;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+a.gototop:hover {
+  background-color: green;
+  border-style: inset;
+}
+
 section {
-  min-width: 183vh;
+  width: auto;
   min-height: 100vh;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.80);
