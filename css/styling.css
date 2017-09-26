@@ -8,6 +8,11 @@
   src: url('../fonts/roboto-thin-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: rubikLight;
+  src: url('../fonts/rubik-light-webfont.woff') format('woff');
+}
+
 section:target {
   transform: translateY(20px);
   transition: all 2s ease;
@@ -62,6 +67,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   cursor: default;
+  padding: 1px;
 
 }
 
@@ -249,13 +255,17 @@ nav {
   top:170%;
 }
 
+section > h1 {
+  font-family: rubikLight;
+}
+
 section {
   min-height: 100vh;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 2em;
-  font-family: monospace;
+
   margin-bottom: 7em;
   transition: all 3s ease;
   -webkit-transition: all 3s ease;
