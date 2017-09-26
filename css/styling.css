@@ -280,4 +280,17 @@ section {
   -webkit-transition: all 3s ease;
   -moz-transition: all 3s ease;
   -o-transition: all 3s ease;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#aboutpaul > img {
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: rgba(115,228,0, 0.5);
+  max-width: 25%;
+  max-height: 25%;
+  pointer-events: none;
 }
