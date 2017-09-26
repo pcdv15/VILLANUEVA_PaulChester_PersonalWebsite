@@ -33,9 +33,15 @@ body, html {
 }
 
 body {
+  /*
   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
   background-color: #131313;
   background-size: 20px 20px;
+  */
+  background-image: url('../img/bg/blackhole.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .page {
@@ -106,7 +112,7 @@ nav {
 
 .navbutton {
   text-align: center;
-  background-color: #FF6D00;
+  background-color: #FF5600;
   -moz-border-radius: 16px;
   -webkit-border-radius: 16px;
   border-radius: 15px;
@@ -126,9 +132,9 @@ nav {
   -moz-transition: all 0.15s ease 0s;
   -o-transition: all 0.15s ease 0s;
   transition: all 0.15s ease 0s;
-  -moz-box-shadow: 0px 0px 4px 4px #424242;
-	-webkit-box-shadow: 0px 0px 4px 4px #424242;
-  box-shadow: 0px 0px 4px 4px #424242;
+  -moz-box-shadow: 0px 0px 4px 4px #c1c1c1;
+	-webkit-box-shadow: 0px 0px 4px 4px #c1c1c1;
+  box-shadow: 0px 0px 4px 4px #c1c1c1;
 }
 
 .navbutton:active {
@@ -147,14 +153,22 @@ nav {
 
 #aboutme:hover:before {
   position: absolute;
-  top: 81%;
+  top: 82.9%;
   content: "About Me";
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 6px;
+  border-style: groove;
+  border-color: #CCFF90;
+  border-width: thin;
+  padding: 3px;
+  z-index: -2;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
-  margin-left: -12px;
+  margin-left: -17px;
   font-family: robotoThin;
   font-size: 15px;
 }
@@ -170,14 +184,21 @@ nav {
 
 #contact:hover:before {
   position: absolute;
-  top: 81%;
+  top: 82.9%;
   content: "Contact Me";
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 6px;
+  border-style: groove;
+  border-color: #CCFF90;
+  border-width: thin;
+  padding: 3px;
+  z-index: -2;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  text-decoration: none;
-  margin-left: -16px;
+  margin-left: -22px;
   font-family: robotoThin;
   font-size: 15px;
 }
@@ -193,14 +214,22 @@ nav {
 
 #skills:hover:before {
   position: absolute;
-  top: 81%;
+  top: 82.9%;
   content: "My Skills";
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 6px;
+  border-style: groove;
+  border-color: #CCFF90;
+  border-width: thin;
+  padding: 3px;
+  z-index: -2;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
-  margin-left: -8px;
+  margin-left: -13.5px;
   font-family: robotoThin;
   font-size: 15px;
 }
@@ -216,14 +245,22 @@ nav {
 
 #recentworks:hover:before {
   position: absolute;
-  top: 81%;
+  top: 82.9%;
   content: "Recent Works";
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 6px;
+  border-style: groove;
+  border-color: #CCFF90;
+  border-width: thin;
+  padding: 3px;
+  z-index: -2;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
-  margin-left: -23px;
+  margin-left: -30px;
   font-family: robotoThin;
   font-size: 15px;
 }
@@ -239,14 +276,22 @@ nav {
 
 #achievements:hover:before {
   position: absolute;
-  top: 81%;
+  top: 82.9%;
   content: "Achievements";
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 6px;
+  border-style: groove;
+  border-color: #CCFF90;
+  border-width: thin;
+  padding: 3px;
+  z-index: -2;
+  font-weight: bold;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
-  margin-left: -28px;
+  margin-left: -31px;
   font-family: robotoThin;
   font-size: 15px;
 }
@@ -264,17 +309,39 @@ section > h1 {
   font-family: rubikLight;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 section > p {
   font-family: robotoRegular;
+  position: relative;
+  letter-spacing: 0.07em;
+  text-indent: 60px;
+  font-size: 1.15em;
+  line-height: 1.5em;
+
 }
 
 section {
   min-height: 100vh;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.80);
+  border-style: ridge;
+  border-color: #09A471;
   color: white;
   padding: 2em;
-
+  overflow: auto;
   margin-bottom: 7em;
   transition: all 3s ease;
   -webkit-transition: all 3s ease;
@@ -284,13 +351,17 @@ section {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  clear: both;
 }
 
 #aboutpaul > img {
+  float:left;
+  position: relative;
   border-radius: 10px;
   border-style: dashed;
   border-color: rgba(115,228,0, 0.5);
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 20%;
+  max-height: 20%;
   pointer-events: none;
+  margin: 15px;
 }
