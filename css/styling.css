@@ -302,7 +302,7 @@ nav {
 
 .content {
   position: absolute;
-  top:170%;
+  top:190%;
 }
 
 section > h1 {
@@ -334,6 +334,7 @@ section > p {
 }
 
 section {
+  min-width: 183vh;
   min-height: 100vh;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.80);
