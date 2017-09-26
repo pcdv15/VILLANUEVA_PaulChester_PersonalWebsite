@@ -70,6 +70,9 @@ body {
   color: #73E400;
   text-shadow: -2px -2px 6px #524138;
   transform: scale(1.25);
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
   transition: all 2s ease;
 }
 
@@ -108,6 +111,9 @@ nav {
 
 .navbutton:hover {
   background-color: #FFAB40;
+  -webkit-transition: all 0.15s ease 0s;
+  -moz-transition: all 0.15s ease 0s;
+  -o-transition: all 0.15s ease 0s;
   transition: all 0.15s ease 0s;
   -moz-box-shadow: 0px 0px 4px 4px #424242;
 	-webkit-box-shadow: 0px 0px 4px 4px #424242;
@@ -117,6 +123,9 @@ nav {
 .navbutton:active {
   position: relative;
   top: 4px;
+  -webkit-transition: all 0.15s ease 0s;
+  -moz-transition: all 0.15s ease 0s;
+  -o-transition: all 0.15s ease 0s;
   transition: all 0.15s ease 0s;
 }
 
@@ -129,6 +138,9 @@ nav {
   position: absolute;
   top: 81%;
   content: "About Me";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   margin-left: -12px;
@@ -149,6 +161,9 @@ nav {
   position: absolute;
   top: 81%;
   content: "Contact Me";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   margin-left: -16px;
@@ -169,6 +184,9 @@ nav {
   position: absolute;
   top: 81%;
   content: "My Skills";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   margin-left: -8px;
@@ -189,6 +207,9 @@ nav {
   position: absolute;
   top: 81%;
   content: "Recent Works";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   margin-left: -23px;
@@ -209,6 +230,9 @@ nav {
   position: absolute;
   top: 81%;
   content: "Achievements";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   text-decoration: none;
   margin-left: -28px;
@@ -234,4 +258,7 @@ section {
   font-family: monospace;
   margin-bottom: 7em;
   transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -o-transition: all 3s ease;
 }
