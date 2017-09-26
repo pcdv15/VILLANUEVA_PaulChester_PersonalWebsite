@@ -326,7 +326,7 @@ a:hover {
 section > p {
   font-family: robotoRegular;
   position: relative;
-
+  text-shadow: 0 0 3px #689F38;
   letter-spacing: 0.07em;
   text-indent: 60px;
   font-size: 1.15em;
@@ -335,20 +335,36 @@ section > p {
 }
 
 a.gototop {
-  justify-content: center;
-  display: flex;
+  position: relative;
+  float: right;
   font-family: robotoThin;
   padding: 4px;
+  text-align: center;
   border-style: ridge;
-  border-color: green;
+  border-color: #7CB342;
   width: 7em;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  clear: left;
 }
 
 a.gototop:hover {
-  background-color: green;
-  border-style: inset;
+  background-color: #7CB342;
+  border-style: outset;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+a.gototop:active {
+  position: relative;
+  top: 4px;
+
 }
 
 section {
