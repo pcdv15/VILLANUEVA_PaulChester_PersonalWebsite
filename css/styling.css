@@ -13,6 +13,11 @@
   src: url('../fonts/rubik-light-webfont.woff') format('woff');
 }
 
+@font-face {
+  font-family: robotoRegular;
+  src: url('../fonts/roboto-regular-webfont.woff') format('woff');
+}
+
 section:target {
   transform: translateY(20px);
   transition: all 2s ease;
@@ -257,6 +262,10 @@ nav {
 
 section > h1 {
   font-family: rubikLight;
+}
+
+section > p {
+  font-family: robotoRegular;
 }
 
 section {
