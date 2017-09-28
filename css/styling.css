@@ -326,7 +326,7 @@ a:hover {
 section > p {
   font-family: robotoRegular;
   position: relative;
-  text-shadow: 0 0 3px #050505;
+  text-shadow: 0 0 3px #000000;
   letter-spacing: 0.07em;
   text-indent: 60px;
   font-size: 1.15em;
@@ -371,7 +371,7 @@ section {
   width: auto;
   min-height: 100vh;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(38, 50, 56, 0.85);
   border-style: ridge;
   border-color: #09A471;
   color: white;
