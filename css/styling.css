@@ -309,17 +309,17 @@ section > h1 {
   font-family: rubikLight;
 }
 
-#usep:link {
+#usep:link, #repo:link {
   text-decoration: none;
   color: white;
 }
 
-#usep:visited {
+#usep:visited, #repo:visited {
   text-decoration: none;
   color: white;
 }
 
-#usep:hover {
+#usep:hover, #repo:hover {
   text-decoration: underline;
 }
 
@@ -408,4 +408,16 @@ section {
   margin: 15px;
   max-width: 8.5%;
   max-height: 8.5%;
+}
+
+#myworks > img {
+  float: left;
+  position: relative;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: rgba(115,228,0, 0.5);
+  pointer-events: none;
+  margin: 15px;
+  max-width: 30%;
+  max-height: 30%;
 }
