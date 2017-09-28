@@ -349,7 +349,7 @@ a.gototop {
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
-  clear: left;
+  clear: both;
 }
 
 a.gototop:hover {
@@ -399,4 +399,13 @@ section {
   max-height: 20%;
   pointer-events: none;
   margin: 15px;
+}
+
+#myskills > img {
+  float: left;
+  position: relative;
+  pointer-events: none;
+  margin: 15px;
+  max-width: 8.5%;
+  max-height: 8.5%;
 }
