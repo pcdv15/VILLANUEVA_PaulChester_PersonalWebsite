@@ -309,17 +309,17 @@ section > h1 {
   font-family: rubikLight;
 }
 
-a:link {
+#usep:link {
   text-decoration: none;
   color: white;
 }
 
-a:visited {
+#usep:visited {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+#usep:hover {
   text-decoration: underline;
 }
 
@@ -334,7 +334,7 @@ section > p {
 
 }
 
-a.gototop {
+.gototop {
   position: relative;
   float: right;
   font-family: robotoThin;
@@ -344,15 +344,16 @@ a.gototop {
   border-color: #7CB342;
   width: 7em;
   text-decoration: none;
+  color: white;
   border-radius: 5px;
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
-  clear: both;
+  clear: right;
 }
 
-a.gototop:hover {
+.gototop:hover {
   background-color: #7CB342;
   border-style: outset;
   transition: all 1s;
@@ -361,7 +362,7 @@ a.gototop:hover {
   -o-transition: all 1s;
 }
 
-a.gototop:active {
+.gototop:active {
   position: relative;
   top: 4px;
 
@@ -386,7 +387,6 @@ section {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
-  clear: both;
 }
 
 #aboutpaul > img {
