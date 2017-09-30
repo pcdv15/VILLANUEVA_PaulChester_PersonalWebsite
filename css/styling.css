@@ -421,3 +421,17 @@ section {
   max-width: 30%;
   max-height: 30%;
 }
+
+ul {
+  list-style-image: url('../img/icons/ic_stars_white_18px.svg');
+  list-style-position: outside;
+}
+
+li {
+  font-family: rubikLight;
+  font-size: 1.75em;
+  margin: 5px;
+  padding: 4px;
+  border-radius: 6px;
+  background: #4CAF50;
+}
