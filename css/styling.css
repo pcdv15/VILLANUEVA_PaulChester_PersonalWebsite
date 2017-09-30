@@ -436,3 +436,12 @@ li {
   border-radius: 6px;
   background: rgba(76, 175, 80, .8);
 }
+
+#otherlnk {
+  margin-left: 75px;
+}
+
+#steam, #fb, #git {
+  margin: 15px;
+
+}
